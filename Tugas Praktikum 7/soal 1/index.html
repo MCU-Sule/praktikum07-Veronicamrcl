@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "author" content = "Veronica Marcella Angela Simalngo 2172042">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+       let m = prompt ("berapa mawar yang ingin dibeli? (5000)");
+       let t = prompt ("berapa tulip yang ingin dibeli? (8000)");
+       let a = prompt ("berapa anggrek yang ingin dibeli? (10000)");
+       let u = prompt ("uang yang dibayarkan adalah?");
+       let total = 5000*m + 8000*t + 10000*a
+       let k = u-total;
+
+       document.write ("anda membeli mawar sebanyak <b>" + m + "bunga </b> dengan harga total Rp." + 5000*m + "<br>") ; 
+       document.write ("anda membeli tulip sebanyak <b>" + t + "bunga </b> dengan harga total Rp." + 8000*t + "<br>") ;
+       document.write ("anda membeli anggrek sebanyak <b>" + a + "bunga </b> dengan harga total Rp." + 10000*a + "<br>") ;
+       document.write ("total belanja anda adalah Rp <b>" + total + "</b> <br> <br> <br>")
+
+       if(u>=t) {
+           document.write ("kembalian anda adalah Rp." + k)
+       }
+       else {
+           document.write ("uang anda tidak cukup")
+       }
+   </script> 
+</body>
+</html>
